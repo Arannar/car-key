@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400" width="660" height="400">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.45" stop-color="#f1f2f4"/>
+      <stop offset="0.62" stop-color="#d9dce1"/>
+      <stop offset="0.8" stop-color="#c3c7cd"/>
+      <stop offset="1" stop-color="#9ea3aa"/>
+    </linearGradient>
+    <linearGradient id="pearl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.35" stop-color="#eef3ff" stop-opacity="0.35"/>
+      <stop offset="0.6" stop-color="#fff7ee" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b3038"/>
+      <stop offset="0.5" stop-color="#14171c"/>
+      <stop offset="1" stop-color="#0b0d10"/>
+    </linearGradient>
+    <linearGradient id="glassHi" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="rim" cx="0.45" cy="0.4" r="0.65">
+      <stop offset="0" stop-color="#d7dadf"/>
+      <stop offset="0.6" stop-color="#9aa0a8"/>
+      <stop offset="1" stop-color="#5d636b"/>
+    </radialGradient>
+    <radialGradient id="shadow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#000" stop-opacity="0.55"/>
+      <stop offset="0.7" stop-color="#000" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="archClip"><rect x="0" y="0" width="660" height="300"/></clipPath>
+    <g id="wheel">
+      <circle r="44" fill="#121316"/>
+      <circle r="43" fill="none" stroke="#2a2c31" stroke-width="2"/>
+      <circle r="33" fill="url(#rim)"/>
+      <circle r="33" fill="none" stroke="#3b3f45" stroke-width="1.5"/>
+      <g fill="#6c727a" opacity="0.9">
+        <path d="M0 -6 L5 -30 A31 31 0 0 1 17 -25 Z"/>
+        <path d="M0 -6 L5 -30 A31 31 0 0 1 17 -25 Z" transform="rotate(72)"/>
+        <path d="M0 -6 L5 -30 A31 31 0 0 1 17 -25 Z" transform="rotate(144)"/>
+        <path d="M0 -6 L5 -30 A31 31 0 0 1 17 -25 Z" transform="rotate(216)"/>
+        <path d="M0 -6 L5 -30 A31 31 0 0 1 17 -25 Z" transform="rotate(288)"/>
+      </g>
+      <circle r="7" fill="#4a4f56"/>
+      <circle r="4" fill="#c9ccd1"/>
+    </g>
+  </defs>
+  <g transform="translate(0,-26)">
+  <ellipse cx="330" cy="334" rx="320" ry="16" fill="url(#shadow)"/>
+  <!-- body -->
+  <path id="bodyPath" fill="url(#body)" d="
+    M 32 272
+    C 26 258 30 247 44 241
+    C 80 229 140 220 215 212
+    C 250 196 285 168 318 152
+    C 350 142 392 141 430 146
+    C 485 154 545 178 588 196
+    L 622 204
+    C 630 210 633 230 632 262
+    C 631 280 626 292 612 298
+    L 560 300
+    A 54 54 0 0 0 454 300
+    L 192 300
+    A 54 54 0 0 0 86 300
+    L 52 298
+    C 42 294 37 286 34 276 Z"/>
+  <path fill="url(#pearl)" d="M 34 276 C 28 262 30 250 40 244 C 70 232 130 222 215 212 C 250 196 285 168 318 152 C 350 142 392 141 430 146 C 485 154 545 178 588 196 L 622 204 C 630 210 633 230 632 262 C 631 280 626 292 612 298 L 52 298 Z"/>
+  <!-- lower body shade / rocker -->
+  <path fill="#7d828a" opacity="0.35" d="M 192 300 L 454 300 L 452 288 L 196 288 Z"/>
+  <path fill="#2a2d33" d="M 196 300 L 452 300 L 450 304 L 198 304 Z"/>
+  <!-- glass greenhouse -->
+  <path fill="url(#glass)" d="
+    M 226 210
+    C 258 192 290 166 322 155
+    C 352 147 392 146 428 150
+    C 478 157 530 176 572 194
+    L 566 199
+    C 470 198 330 202 230 213 Z"/>
+  <path fill="url(#glassHi)" d="M 236 206 C 266 188 296 166 324 158 C 350 151 380 150 404 151 L 360 200 L 240 210 Z"/>
+  <!-- pillars -->
+  <path fill="#0d0f12" d="M 384 149 L 393 149 L 393 201 L 384 201 Z"/>
+  <path fill="#0d0f12" d="M 248 199 L 256 196 L 262 208 L 252 209 Z"/>
+  <!-- shoulder highlight -->
+  <path d="M 60 241 C 120 230 180 222 232 216 C 330 206 470 202 586 201" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-opacity="0.9"/>
+  <path d="M 70 262 C 200 252 420 246 626 240" fill="none" stroke="#aeb3ba" stroke-width="1" stroke-opacity="0.6"/>
+  <!-- door cut lines -->
+  <path d="M 258 214 C 256 240 258 270 262 296" fill="none" stroke="#9aa0a8" stroke-width="1.2"/>
+  <path d="M 395 204 L 396 298" fill="none" stroke="#9aa0a8" stroke-width="1.2"/>
+  <path d="M 520 200 C 530 230 528 270 516 296" fill="none" stroke="#9aa0a8" stroke-width="1.2"/>
+  <!-- flush door handles -->
+  <rect x="345" y="222" width="30" height="5" rx="2.5" fill="#c4c8ce" stroke="#9aa0a8" stroke-width="0.8"/>
+  <rect x="470" y="220" width="30" height="5" rx="2.5" fill="#c4c8ce" stroke="#9aa0a8" stroke-width="0.8"/>
+  <!-- mirror -->
+  <path fill="#e9ebee" stroke="#a7acb3" stroke-width="1" d="M 246 205 C 238 196 246 189 262 190 C 272 191 274 199 268 205 Z"/>
+  <path fill="#1a1c20" d="M 252 206 L 266 206 L 264 211 L 254 211 Z"/>
+  <!-- headlight -->
+  <path fill="#1d2127" d="M 38 248 C 52 240 76 236 96 236 C 90 243 70 249 44 254 Z"/>
+  <path fill="none" stroke="#e8f1ff" stroke-width="1.6" stroke-linecap="round" d="M 46 250 C 60 244 76 240 90 239"/>
+  <!-- front bumper detail -->
+  <path d="M 36 270 C 50 268 70 268 86 270" fill="none" stroke="#9aa0a8" stroke-width="1"/>
+  <!-- tail light -->
+  <path fill="#7a1418" d="M 588 198 L 622 205 C 627 210 628 216 627 222 L 590 214 Z"/>
+  <path fill="none" stroke="#ff4a4f" stroke-width="1.6" d="M 592 204 L 622 210"/>
+  <!-- charge port flap hint -->
+  <path d="M 600 226 L 616 228 L 615 240 L 600 238 Z" fill="none" stroke="#a7acb3" stroke-width="0.8"/>
+  <!-- wheel wells -->
+  <g clip-path="url(#archClip)"><circle cx="139" cy="287" r="51" fill="#0c0d10"/><circle cx="507" cy="287" r="51" fill="#0c0d10"/></g>
+  <!-- wheels -->
+  <use href="#wheel" x="139" y="287"/>
+  <use href="#wheel" x="507" y="287"/>
+</g>
+</svg>
